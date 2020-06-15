@@ -88,7 +88,7 @@ Licensed under the MIT license
 				readingTimeSeconds = Math.round(totalReadingTimeSeconds - (readingTimeMinutes * 60));
 
 				// format reading time
-				readingTime = `${readingTimeMinutes}:${readingTimeSeconds}`;
+				readingTime = '${readingTimeMinutes}:${readingTimeSeconds}';
 				// if s.round
 				if(s.round) {
 
